@@ -1,0 +1,141 @@
+#titlePic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:15%;
+    height:10%
+}
+
+table{
+    width: 85%;
+    height: 85%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    .open-sans-uniquifier> {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+      }
+    line-height: 1.6;
+    background-color: #F4E8DD;
+    color:  #13294B;
+    word-wrap: break-word;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background:  #4B9CD3;
+    color: #fff;
+    padding: 1rem 0;
+    word-wrap: break-word;
+    .libre-baskerville-regular {
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    word-wrap: break-word;
+    .libre-baskerville-regular {
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+}
+
+nav ul {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    list-style: none;
+    background:  #13294B;
+    .libre-baskerville-regular {
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+    color:  #13294B;
+    .libre-baskerville-regular {
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+}
+
+section p {
+    margin-bottom: 1rem;
+    color:  #13294B;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 1rem;
+    }
+
+    footer {
+        position: relative;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul li {
+        margin-bottom: 0.5rem;
+    }
+}
